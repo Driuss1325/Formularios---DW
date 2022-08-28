@@ -102,7 +102,6 @@ function DrawerAppBar(props) {
             alignItems: "center",
             display: "flex",
             height: "100%",
-            backgroundColor: "gray",
             justifyContent: "center",
             width: "100%",
           }}
