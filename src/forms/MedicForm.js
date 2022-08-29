@@ -418,7 +418,7 @@ const HistorialNutricional = ({ formik }) => {
       >
         <div {...getToggleProps()}>
           <Typography variant="h4" style={{ marginBottom: "1%" }}>
-            Historial alimenticio y alegrias
+            Historial alimenticio y alergias
           </Typography>
         </div>
         <div {...getCollapseProps()}>

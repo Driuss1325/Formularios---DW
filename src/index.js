@@ -1,13 +1,16 @@
-
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterMoment } from '@mui/x-date-pickers/AdapterMoment';
 
 ReactDOM.render(
   <React.StrictMode>
+    <LocalizationProvider dateAdapter={AdapterMoment}>
       <App />
+    </LocalizationProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
