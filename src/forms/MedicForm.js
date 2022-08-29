@@ -79,7 +79,7 @@ const MedicForm = () => {
   return (
     <div
       style={{
-        marginTop: "5%",
+        marginTop: "1%",
       }}
     >
       <form onSubmit={formik.handleSubmit}>
