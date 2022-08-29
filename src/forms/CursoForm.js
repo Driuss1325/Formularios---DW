@@ -1,7 +1,7 @@
 
 
 const CursoForm = () => {
-    return <div>Hola</div>;
+    return <h4>Formulario Curso</h4>;
   };
   
   export default CursoForm;

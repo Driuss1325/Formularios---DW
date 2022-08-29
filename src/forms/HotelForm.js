@@ -1,7 +1,7 @@
 
 
 const HotelForm = () => {
-  return <div>Hola</div>;
+  return <h4>Formulario Hotel</h4>;
 };
 
 export default HotelForm;
